@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 nltk.download('wordnet')
 nltk.download('punkt')
 
-data = pd.read_csv('Cleaned_TaskMaster.csv')
+data = pd.read_csv('Cleaned_Respuestas.csv')
 
 if 'Unnamed: 0' in data.columns:
     data = data.drop(columns=['Unnamed: 0'])
